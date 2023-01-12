@@ -27,3 +27,23 @@ Get "https://172.18.60.235:6443/api/v1/nodes?limit=500": dial tcp 172.18.60.235:
 ```
 It seems like the kubelet isn't running or healthy.
 ```
+
+
+
+https://blog.csdn.net/curry10086/article/details/107579113
+
+
+### kubeadm-config.yaml
+```
+kind: ClusterConfiguration
+apiVersion: kubeadm.k8s.io/v1beta3
+kubernetesVersion: v1.21.0
+---
+kind: KubeletConfiguration
+apiVersion: kubelet.config.k8s.io/v1beta1
+cgroupDriver: systemd
+```
+
+### unknown service runtime. V1alpha2. ImageService
+> 1：修改配置文件/etc/containerd/config.toml，注释掉disabled_plugins = [“cri”]
+2：重启containerd

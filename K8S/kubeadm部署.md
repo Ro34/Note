@@ -110,7 +110,7 @@ e.g.
 sudo kubeadm init --pod-network-cidr=10.244.0.0/16 --apiserver-advertise-address=172.18.60.235 -v=9
 
 kubeadm init \
-  --apiserver-advertise-address=172.18.60.135  \
+  --apiserver-advertise-address=10.143.188.185  \
   --image-repository registry.aliyuncs.com/google_containers \
   --service-cidr=10.1.0.0/16 \
   --pod-network-cidr=10.244.0.0/16
@@ -121,6 +121,13 @@ kubeadm init \
 ```shell
 kubeadm reset
 ```
+
+mkdir -p $HOME/.kube
+sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
+sudo chown $(id -u):$(id -g) $HOME/.kube/config
+
+### 复制授权文件
+export KUBECONFIG=/etc/kubernetes/admin.conf
 
 mkdir -p $HOME/.kube
 sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
