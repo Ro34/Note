@@ -4,15 +4,16 @@
 给你一个链表，删除链表的倒数第 n 个结点，并且返回链表的头结点。
 ```
 ## Level
-
+Medium
 ### Appraise
-
+Easy
 ### Me
 
 
 
 ### Guide
-
+使用快慢指针，先移动快指针，产生间隔。
+同时移动快慢指针，当快指针到达尾部null时候，slow指向的就是操作的节点
 
 ### mySolution
 ```java
@@ -20,5 +21,24 @@
 ```
 ### FinalSolution
 ```java
-
+class Solution {
+    public ListNode removeNthFromEnd(ListNode head, int n) {
+        if (head == null) {
+            return null;
+        }
+        ListNode dummy = new ListNode(-1);
+        dummy.next = head;
+        ListNode fast = dummy;
+        ListNode slow = dummy;
+        for (int i = 0; i < n; i++) {
+            fast = fast.next;
+        }
+        while (fast.next != null) {
+            fast = fast.next;
+            slow = slow.next;
+        }
+        slow.next = slow.next.next;
+        return dummy.next;//不能return head。出现空的会报错
+    }
+}
 ```
