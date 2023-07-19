@@ -36,6 +36,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="/tmp/leetcode/editor/cn/[151]反转字符串中的单词.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="/tmp/leetcode/editor/cn/doc/content/[151]反转字符串中的单词.md" />
+              <option name="frontendQuestionId" value="leetcode.cn151" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="/tmp/leetcode/editor/cn/[151]反转字符串中的单词.java" />
+              <option name="titleSlug" value="reverse-words-in-a-string" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="/tmp/leetcode/editor/cn/[15]三数之和.java">
           <value>
             <LeetcodeEditor>
