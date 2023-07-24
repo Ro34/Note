@@ -201,6 +201,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="/tmp/leetcode/editor/cn/[239]滑动窗口最大值.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="/tmp/leetcode/editor/cn/doc/content/[239]滑动窗口最大值.md" />
+              <option name="frontendQuestionId" value="leetcode.cn239" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="/tmp/leetcode/editor/cn/[239]滑动窗口最大值.java" />
+              <option name="titleSlug" value="sliding-window-maximum" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="/tmp/leetcode/editor/cn/[242]有效的字母异位词.java">
           <value>
             <LeetcodeEditor>
@@ -264,6 +275,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="/tmp/leetcode/editor/cn/[344]反转字符串.java" />
               <option name="titleSlug" value="reverse-string" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="/tmp/leetcode/editor/cn/[347]前 K 个高频元素.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="/tmp/leetcode/editor/cn/doc/content/[347]前 K 个高频元素.md" />
+              <option name="frontendQuestionId" value="leetcode.cn347" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="/tmp/leetcode/editor/cn/[347]前 K 个高频元素.java" />
+              <option name="titleSlug" value="top-k-frequent-elements" />
             </LeetcodeEditor>
           </value>
         </entry>
