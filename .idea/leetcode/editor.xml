@@ -432,6 +432,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="/tmp/leetcode/editor/cn/[404]左叶子之和.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="/tmp/leetcode/editor/cn/doc/content/[404]左叶子之和.md" />
+              <option name="frontendQuestionId" value="leetcode.cn404" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="/tmp/leetcode/editor/cn/[404]左叶子之和.java" />
+              <option name="titleSlug" value="sum-of-left-leaves" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="/tmp/leetcode/editor/cn/[454]四数相加 II.java">
           <value>
             <LeetcodeEditor>
