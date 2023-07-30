@@ -58,6 +58,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="/tmp/leetcode/editor/cn/[108]将有序数组转换为二叉搜索树.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="/tmp/leetcode/editor/cn/doc/content/[108]将有序数组转换为二叉搜索树.md" />
+              <option name="frontendQuestionId" value="leetcode.cn108" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="/tmp/leetcode/editor/cn/[108]将有序数组转换为二叉搜索树.java" />
+              <option name="titleSlug" value="convert-sorted-array-to-binary-search-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="/tmp/leetcode/editor/cn/[110]平衡二叉树.java">
           <value>
             <LeetcodeEditor>
